@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Konie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="stajnia.html">Moja stajnia</a>
+    <a href="konie.html">Konie SSO</a>
+    <a href="seriale.html">Seriale SSO</a>
+</nav>
+
+<h1>Wszystkie konie</h1>
+
+<div class="kon">
+    <h3>Koń Alex</h3>
+    <button onclick="toggleKonia('horse1')">Dodaj / usuń</button>
+</div>
+
+<div class="kon">
+    <h3>Koń Linda</h3>
+    <button onclick="toggleKonia('horse2')">Dodaj / usuń</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
