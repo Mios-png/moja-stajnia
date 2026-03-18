@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Moja Stajnia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="stajnia.html">Moja stajnia</a>
+    <a href="konie.html">Konie SSO</a>
+    <a href="seriale.html">Seriale SSO</a>
+</nav>
+
+<h1>Moja Stajnia🐎</h1>
+<p>Strona do zarządzania końmi w Star Stable Online.</p>
+
+</body>
+</html>
