@@ -1,0 +1,27 @@
+function getKonie() {
+    return JSON.parse(localStorage.getItem('konie')) || [];
+}
+
+function toggleKonia(id) {
+    let konie = getKonie();
+
+    if (konie.includes(id)) {
+        konie = konie.filter(k => k !== id);
+    } else {
+        konie.push(id);
+    }
+
+    localStorage.setItem('konie', JSON.stringify(konie));
+    alert("Zapisano!");
+}
+
+// STATUS W SERIALACH
+let konie = getKonie();
+
+if (document.getElementById("alex-status")) {
+    if (konie.includes("horse1")) {
+        document.getElementById("alex-status").innerText = "✔ Posiadasz konia";
+    } else {
+        document.getElementById("alex-status").innerText = "❌ Nie posiadasz";
+    }
+}
